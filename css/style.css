@@ -1,0 +1,665 @@
+  
+/* titulos */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* parrafos */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+h1,a,h2,h3{
+    font-family: "Playfair Display", serif;
+}
+
+p{
+    font-family: "Playfair Display", serif;
+}
+
+
+body{
+    background: #2C272E;
+    background-image: url(../img/puntos22.png);
+}
+
+
+
+
+.nav-portafolio ul a{
+    color: white;
+    margin-left: 35px;
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
+
+.nav-portafolio ul a:hover{
+    color: #9AE66E !important;   
+}
+
+
+.portafolio1{
+    margin-top: 10px;
+    height: 574px;
+    background-color: #2C272E;
+    
+}
+
+.portafolio1 .equina img{
+    width: 339px;
+    height: 250px;
+    margin-left: 973px;
+    z-index: 1;
+    position: relative;
+    top: -82px;
+    background: transparent;
+    margin-bottom: -272px;
+}
+
+.portafolio1 h2{
+    color: white;
+    margin-top: 146px;
+    font-size: 36px;
+}
+
+.portafolio1 h2 b{
+    color: #9AE66E;
+}
+
+.portafolio1 .pienso h2{
+    color: white;
+    margin-top: 319px;
+    font-size: 36px;
+}
+
+.portafolio1 .pienso h2 b{
+    color: #9AE66E;
+}
+
+.portafolio1 .imagen2 img{
+    width: 696px;
+    height: 577px;
+    margin-left: -81px;
+    margin-top: -423px;
+    position: absolute;
+    z-index: 2;
+    background: transparent;
+}
+
+.portafolio1 .circulo img{
+    z-index: 1;
+    position: relative;
+    bottom: -102px;
+    height: 397px;
+    width: 420px;
+    margin-left: -19px;
+}
+
+.portafolio1 .abajo img{
+    width: 345px;
+    height: 119px;
+    background: transparent;
+    position: relative;
+    bottom: 14px;
+}
+
+
+.portafolio1 .cerrar img{
+    width: 64px;
+    height: 64px;
+    background: transparent;
+    position: relative;
+    margin-top: 18px;
+    bottom: 507px;
+    left: 1100px;
+}
+
+.portafolio1 .cerrar2 img{
+    width: 64px;
+    height: 64px;
+    background: transparent;
+    position: relative;
+    margin-top: 18px;
+    bottom: 241px;
+    left: 40px;
+}
+
+.portafolio1 .puntos img{
+    width: 52px;
+    height: 10px;
+    background: transparent;
+    position: relative;
+    margin-top: 18px;
+    bottom: 589px;
+    left: 1184px;
+}
+
+.portafolio1 .elipse1 img{
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    position: relative;
+    margin-top: 18px;
+    bottom: 561px;
+    left: 821px;
+    z-index: 2;
+}
+
+.portafolio1 .elipse2 img{
+    width: 45px;
+    height: 45px;
+    background: transparent;
+    position: relative;
+    margin-top: 18px;
+    bottom: 691px;
+    left: 881px;
+    z-index: 2;
+}
+
+.portafolio1 .pienso .redes1 img{
+    width: 36px;
+    height: 36px;
+    background: transparent;
+    position: relative;
+    margin-left: 7px;
+    top: 102px;
+    left: 9px;
+    z-index: 2; 
+}
+
+/* main */
+
+
+
+.linea .acerca h2{
+    margin-top: 385px;
+    font-size: 61px;
+    color: white;
+    font-size: 86px;
+    margin-bottom: 250px;
+}
+
+.linea .acerca h2 b{
+    color: #9AE66E;
+}
+
+
+.linea .cont p{
+    margin-top: 252px;
+    color: white;
+    text-align: left;
+    padding: 10px 20px;
+    font-size: 41px;
+    margin-bottom: 250px;
+}
+
+.linea .circuloA img{
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    position: relative;
+    margin-top: 18px;
+    bottom: 233px;
+    left: 657px;
+    z-index: 2
+}
+
+.linea .circuloB img{
+    width: 45px;
+    height: 45px;
+    background: transparent;
+    position: relative;
+    margin-top: 18px;
+    bottom: 312px;
+    left: 1176px;
+    z-index: 2
+}
+
+.linea .trespuntosB img{
+    width: 52px;
+    height: 10px;
+    background: transparent;
+    position: relative;
+    margin-top: 18px;
+    bottom: 343px;
+    left: 926px;
+    z-index: 2;
+}
+
+
+
+.profesional p{
+    font-size: 35px;
+    color: #ffffff;
+    text-align: left;
+    margin-inline: 34px;
+    margin-bottom: 73px;
+    
+}
+
+.profesional h2{
+    font-size: 60px;
+    text-align: right;
+    color: white;
+    position: relative;
+    bottom: 82px;
+    left: 444px;
+    margin-right: 37px;
+    margin-left: 74px;
+    border-bottom: solid 2px #ffffff;
+    z-index: 2;
+}
+
+.profesional h2 b{
+    color: #9AE66E;
+}
+
+.profesional .diego img{
+    height: 536px;
+    width: 382px;
+    position: relative;
+    bottom: 51px;
+}
+
+
+.imagenes1{
+    height: 1px;
+}
+.habilidades p{
+    color: white;
+    font-size: 38px;
+    text-align: left;
+    padding: 19px 239px 39px 327px;
+    margin-top: 168px;
+
+}
+
+
+.habilidades .imagenes1 .img1 img{
+    position: relative;
+    height: 105px;
+    width: 84px;
+    z-index: 2;
+    color: transparent;
+    bottom: 602px;
+    left: 102px;
+
+}
+
+.habilidades .imagenes1 .img1 img{
+    position: relative;
+    height: 105px;
+    width: 84px;
+    z-index: 2;
+    color: transparent;
+    bottom: 602px;
+    left: 102px;
+
+}
+
+
+.habilidades .imagenes1 .img1 h3{
+    position: relative;
+    height: 105px;
+    width: 84px;
+    z-index: 2;
+    color: white;
+    bottom: 602px;
+    left: 102px;
+}
+
+.habilidades .img2 h3{
+    position: relative;
+    height: 105px;
+    width: 84px;
+    z-index: 2;
+    color: white;
+    bottom: 491px;
+    left: 1114px;
+}
+
+.habilidades .imagenes1 .img2 img{
+    position: relative;
+    height: 85px;
+    width: 85px;
+    z-index: 2;
+    color: transparent;
+    bottom: 491px;
+    left: 1159px;
+}
+
+.habilidades .imagenes1 .img3 img{
+    position: relative;
+    height: 80px;
+    width: 80px;
+    z-index: 2;
+    color: transparent;
+    bottom: 1003px;
+    left: 1131px;
+}
+
+.habilidades .imagenes1 .img3 h3{
+    position: relative;
+    height: 105px;
+    width: 84px;
+    z-index: 2;
+    color: white;
+    bottom: 1007px;
+    left: 1133px;
+}
+
+.habilidades .imagenes1 .img4 img{
+    position: relative;
+    height: 105px;
+    width: 84px;
+    z-index: 2;
+    color: transparent;
+    bottom: 885px;
+    left: 100px;
+}
+
+.habilidades .imagenes1 .img4 h3{
+    position: relative;
+    height: 105px;
+    width: 84px;
+    z-index: 2;
+    color: white;
+    bottom: 886px;
+    left: 79px;
+}
+
+.version1 h2{
+    font-size: 60px;
+    text-align: right;
+    color: white;
+    position: relative;
+    bottom: 48px;
+    left: 174px;
+    margin-right: 198px;
+    margin-left: 461px;
+    border-bottom: solid 2px #ffffff;
+}
+
+.version1 h2 b{
+    color: #9AE66E;
+}
+
+
+
+.contactos{
+    text-align: center;
+    margin-top: 344px;
+    margin-bottom: 90px;
+}
+
+.contactos  a i{
+    font-size: 75px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+
+.contactos .what a i{
+    position: relative;
+    font-size: 120px;
+    color: #E59934;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+    bottom: 90px;
+    transition: .4s;
+}
+
+.contactos .what a i:hover{
+    color: #ffffff;
+    font-size: 150px;
+}
+
+.contactos .what h2{
+    position: relative;
+    font-size: 38px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+    bottom: 114px;
+    transition: .4s;
+}
+
+.contactos .what h2:hover{
+    color: #E59934;
+}
+
+.contactos .ins a i{
+    position: relative;
+    font-size: 120px;
+    color: #E59934;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+    bottom: 120px;
+    transition: .4s;
+}
+
+.contactos .ins a i:hover{
+    color: #ffffff;
+    font-size: 150px;
+}
+
+.contactos .ins h2{
+    position: relative;
+    font-size: 38px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+    bottom: 141px;
+}
+
+.contactos .git a i{
+    position: relative;
+    font-size: 120px;
+    color: #9AE66E;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+    bottom: 120px;
+    transition: .4s;
+}
+
+.contactos .git a i:hover{
+    color: #ffffff;
+    font-size: 150px;
+}
+
+.contactos .git h2{
+    position: relative;
+    font-size: 38px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+    bottom: 141px;
+}
+
+.contactos .link a i{
+    position: relative;
+    font-size: 120px;
+    color: #9AE66E;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+    bottom: 90px;
+    transition:  .4s;
+}
+
+.contactos .link a i:hover{
+    color: #ffffff;
+    font-size: 150px;
+}
+
+.contactos .link h2{
+    position: relative;
+    font-size: 38px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+    bottom: 114px;
+}
+
+.contactos .letra h2{
+    color: #ffffff;
+    font-size: 60px;
+    text-align: end;
+
+}
+
+.contactos .letra h2 b{
+    color: #9AE66E;
+}
+
+
+@media screen and (min-width:320px) and (max-width:990px){
+    .navbar-toggler{
+        position: relative;
+        left: 480px;
+        right: 10px;
+        height: 171px;
+        width: 124px;
+        font-size: 59px;
+        top: 43px;
+        z-index: 2;
+        margin-bottom: 150px;
+        border: transparent;
+    }
+    
+    .portafolio1 .equina img{
+        display: none !important;
+    }
+
+    .portafolio1 .circulo img{
+        margin-bottom: 10px;
+        position: relative;
+        bottom: 528px;
+        left: 66px;
+    }
+
+    .portafolio1 .imagen2 img{
+        margin-bottom: 10px;
+        position: relative;
+        bottom: 640px;
+        left: 66px;
+    }   
+    
+    .portafolio1 .pienso h2{
+        position: relative;
+        font-size: 64px;
+        bottom: 927px;
+        right: 83px;
+    }
+
+    .portafolio1 .abajo img{
+        display: none;
+    }
+
+    .portafolio1 .cerrar img{
+        display: none;
+    }
+
+    .portafolio1 .cerrar2 img{
+        display: none;
+    }
+
+    .portafolio1 .puntos img{
+        display: none;
+    }
+
+    .portafolio1 .elipse1 img{
+        display: none;
+    }
+
+    .portafolio1 .elipse2 img{
+        display: none;
+    }
+
+    /* .portafolio1 .circulo img{
+        display: none;
+    } */
+
+    .portafolio1{
+        display: flex;
+        width: 100%;
+    }
+    .portafolio1 h2{
+        text-align: center;
+        right: 75px;
+        margin: 3px;
+        font-size: 64px;
+        margin-bottom: 306px;
+        position: relative;
+        bottom: 277px;
+    }
+
+    .portafolio1 .pienso .redes1 img{
+        top: -1199px;
+        position: relative;
+        left: 149px;
+    }
+
+    .linea{
+        display: flex;
+    }
+
+    .linea .acerca h2{
+        margin-top: 400px;
+        color: white;
+        font-size: 92px;
+        margin-bottom: -160px;
+        text-align: center;
+        left: 35px;
+        position: relative;
+    }
+
+    .linea .cont p{
+        margin-top: 186px;
+        color: white;
+        text-align: center;
+        padding: 16px 17px;
+        font-size: 25px;
+        margin-bottom: 253px;
+        position: relative;
+        left: 48px;
+    }
+
+    .linea .circuloA img{
+        width: 60px;
+        height: 60px;
+        background: transparent;
+        position: relative;
+        margin-top: 18px;
+        bottom: 233px;
+        left: 23px;
+        z-index: 2
+    }
+    
+    .linea .circuloB img{
+        width: 45px;
+        height: 45px;
+        background: transparent;
+        position: relative;
+        margin-top: 18px;
+        bottom: 312px;
+        left: 303px;
+        z-index: 2
+    }
+    
+    .linea .trespuntosB img{
+        width: 52px;
+        height: 10px;
+        background: transparent;
+        position: relative;
+        margin-top: 18px;
+        bottom: 384px;
+        left: 206px;
+        z-index: 2;
+    }
+}
