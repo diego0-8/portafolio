@@ -26,7 +26,12 @@ body{
     margin-left: 35px;
     font-size: 20px;
     margin-top: 20px;
+    z-index: 2;
     
+}
+
+.nav-portafolio li{
+    z-index: 2;
 }
 
 .nav-portafolio ul a:hover{
@@ -42,12 +47,12 @@ body{
 }
 
 .portafolio1 .equina img{
-    width: 339px;
-    height: 250px;
-    margin-left: 973px;
+    width: 240px;
+    height: 179px;
+    margin-left: 1089px;
     z-index: 1;
     position: relative;
-    top: -82px;
+    top: -120px;
     background: transparent;
     margin-bottom: -272px;
 }
@@ -167,7 +172,7 @@ body{
 
 
 
-.linea .acerca h2{
+#linea .acerca h2{
     margin-top: 385px;
     font-size: 61px;
     color: white;
@@ -175,12 +180,12 @@ body{
     margin-bottom: 250px;
 }
 
-.linea .acerca h2 b{
+#linea .acerca h2 b{
     color: #9AE66E;
 }
 
 
-.linea .cont p{
+#linea .cont p{
     margin-top: 252px;
     color: white;
     text-align: left;
@@ -189,7 +194,7 @@ body{
     margin-bottom: 250px;
 }
 
-.linea .circuloA img{
+#linea .circuloA img{
     width: 60px;
     height: 60px;
     background: transparent;
@@ -200,7 +205,7 @@ body{
     z-index: 2
 }
 
-.linea .circuloB img{
+#linea .circuloB img{
     width: 45px;
     height: 45px;
     background: transparent;
@@ -211,7 +216,7 @@ body{
     z-index: 2
 }
 
-.linea .trespuntosB img{
+#linea .trespuntosB img{
     width: 52px;
     height: 10px;
     background: transparent;
@@ -224,7 +229,7 @@ body{
 
 
 
-.profesional p{
+#profesional p{
     font-size: 35px;
     color: #ffffff;
     text-align: left;
@@ -233,7 +238,7 @@ body{
     
 }
 
-.profesional h2{
+#profesional h2{
     font-size: 60px;
     text-align: right;
     color: white;
@@ -246,11 +251,11 @@ body{
     z-index: 2;
 }
 
-.profesional h2 b{
+#profesional h2 b{
     color: #9AE66E;
 }
 
-.profesional .diego img{
+#profesional .diego img{
     height: 536px;
     width: 382px;
     position: relative;
@@ -261,7 +266,60 @@ body{
 .imagenes1{
     height: 1px;
 }
-.habilidades p{
+
+#proyectos{
+    margin-top: 150px;
+}
+
+#proyectos h2{
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 47px;
+
+} 
+
+#proyectos h2 b{
+    color: #9AE66E;
+}
+
+#proyectos .btn1{
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 6px 111px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 23px;
+    margin: 30px 42px;
+    cursor: pointer;
+    border-radius: 67px;
+    transition: .4s;
+    box-shadow: 0 13px 24px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#proyectos .btn1:hover{
+    background-color: #9AE66E;
+    color: black;
+}
+
+#proyectos .futbol{
+    background: #ffffff1a;
+    border-radius: 50px; 
+    margin-bottom: 10px;   
+}
+
+
+
+
+
+
+
+
+
+#habilidades p{
     color: white;
     font-size: 38px;
     text-align: left;
@@ -271,7 +329,7 @@ body{
 }
 
 
-.habilidades .imagenes1 .img1 img{
+#habilidades .imagenes1 .img1 img{
     position: relative;
     height: 105px;
     width: 84px;
@@ -282,7 +340,7 @@ body{
 
 }
 
-.habilidades .imagenes1 .img1 img{
+#habilidades .imagenes1 .img1 img{
     position: relative;
     height: 105px;
     width: 84px;
@@ -294,7 +352,7 @@ body{
 }
 
 
-.habilidades .imagenes1 .img1 h3{
+#habilidades .imagenes1 .img1 h3{
     position: relative;
     height: 105px;
     width: 84px;
@@ -304,7 +362,7 @@ body{
     left: 102px;
 }
 
-.habilidades .img2 h3{
+#habilidades .img2 h3{
     position: relative;
     height: 105px;
     width: 84px;
@@ -314,7 +372,7 @@ body{
     left: 1114px;
 }
 
-.habilidades .imagenes1 .img2 img{
+#habilidades .imagenes1 .img2 img{
     position: relative;
     height: 85px;
     width: 85px;
@@ -324,7 +382,7 @@ body{
     left: 1159px;
 }
 
-.habilidades .imagenes1 .img3 img{
+#habilidades .imagenes1 .img3 img{
     position: relative;
     height: 80px;
     width: 80px;
@@ -334,7 +392,7 @@ body{
     left: 1131px;
 }
 
-.habilidades .imagenes1 .img3 h3{
+#habilidades .imagenes1 .img3 h3{
     position: relative;
     height: 105px;
     width: 84px;
@@ -344,7 +402,7 @@ body{
     left: 1133px;
 }
 
-.habilidades .imagenes1 .img4 img{
+#habilidades .imagenes1 .img4 img{
     position: relative;
     height: 105px;
     width: 84px;
@@ -354,7 +412,7 @@ body{
     left: 100px;
 }
 
-.habilidades .imagenes1 .img4 h3{
+#habilidades .imagenes1 .img4 h3{
     position: relative;
     height: 105px;
     width: 84px;
@@ -382,13 +440,13 @@ body{
 
 
 
-.contactos{
+#contactos{
     text-align: center;
     margin-top: 344px;
     margin-bottom: 90px;
 }
 
-.contactos  a i{
+#contactos  a i{
     font-size: 75px;
     color: white;
     text-align: center;
@@ -397,7 +455,7 @@ body{
 }
 
 
-.contactos .what a i{
+#contactos .what a i{
     position: relative;
     font-size: 120px;
     color: #E59934;
@@ -408,12 +466,12 @@ body{
     transition: .4s;
 }
 
-.contactos .what a i:hover{
+#contactos .what a i:hover{
     color: #ffffff;
     font-size: 150px;
 }
 
-.contactos .what h2{
+#contactos .what h2{
     position: relative;
     font-size: 38px;
     color: white;
@@ -424,11 +482,11 @@ body{
     transition: .4s;
 }
 
-.contactos .what h2:hover{
+#contactos .what h2:hover{
     color: #E59934;
 }
 
-.contactos .ins a i{
+#contactos .ins a i{
     position: relative;
     font-size: 120px;
     color: #E59934;
@@ -439,12 +497,12 @@ body{
     transition: .4s;
 }
 
-.contactos .ins a i:hover{
+#contactos .ins a i:hover{
     color: #ffffff;
     font-size: 150px;
 }
 
-.contactos .ins h2{
+#contactos .ins h2{
     position: relative;
     font-size: 38px;
     color: white;
@@ -454,7 +512,7 @@ body{
     bottom: 141px;
 }
 
-.contactos .git a i{
+#contactos .git a i{
     position: relative;
     font-size: 120px;
     color: #9AE66E;
@@ -465,12 +523,12 @@ body{
     transition: .4s;
 }
 
-.contactos .git a i:hover{
+#contactos .git a i:hover{
     color: #ffffff;
     font-size: 150px;
 }
 
-.contactos .git h2{
+#contactos .git h2{
     position: relative;
     font-size: 38px;
     color: white;
@@ -480,7 +538,7 @@ body{
     bottom: 141px;
 }
 
-.contactos .link a i{
+#contactos .link a i{
     position: relative;
     font-size: 120px;
     color: #9AE66E;
@@ -491,12 +549,12 @@ body{
     transition:  .4s;
 }
 
-.contactos .link a i:hover{
+#contactos .link a i:hover{
     color: #ffffff;
     font-size: 150px;
 }
 
-.contactos .link h2{
+#contactos .link h2{
     position: relative;
     font-size: 38px;
     color: white;
@@ -506,14 +564,14 @@ body{
     bottom: 114px;
 }
 
-.contactos .letra h2{
+#contactos .letra h2{
     color: #ffffff;
     font-size: 60px;
     text-align: end;
 
 }
 
-.contactos .letra h2 b{
+#contactos .letra h2 b{
     color: #9AE66E;
 }
 
@@ -605,11 +663,11 @@ body{
         left: 149px;
     }
 
-    .linea{
+    #linea{
         display: flex;
     }
 
-    .linea .acerca h2{
+    #linea .acerca h2{
         margin-top: 400px;
         color: white;
         font-size: 92px;
@@ -619,7 +677,7 @@ body{
         position: relative;
     }
 
-    .linea .cont p{
+    #linea .cont p{
         margin-top: 186px;
         color: white;
         text-align: center;
@@ -630,7 +688,7 @@ body{
         left: 48px;
     }
 
-    .linea .circuloA img{
+    #linea .circuloA img{
         width: 60px;
         height: 60px;
         background: transparent;
@@ -641,7 +699,7 @@ body{
         z-index: 2
     }
     
-    .linea .circuloB img{
+    #linea .circuloB img{
         width: 45px;
         height: 45px;
         background: transparent;
@@ -652,7 +710,7 @@ body{
         z-index: 2
     }
     
-    .linea .trespuntosB img{
+    #linea .trespuntosB img{
         width: 52px;
         height: 10px;
         background: transparent;

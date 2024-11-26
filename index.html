@@ -12,8 +12,14 @@
     <!-- iconos de bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
+    <!-- aniamtion -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- enlazar css -->
     <link rel="stylesheet" href="css/style.css">
+
+
 </head>
 <body>
 
@@ -28,19 +34,22 @@
             <div class="collapse navbar-collapse justify-content-start" id="navbarNav">
                 <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link " href="#">INICIO</a>
+                    <a class="nav-link " href="page">INICIO</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#acerca">ACERCA DE MI</a>
+                    <a class="nav-link" href="#linea">ACERCA DE MI</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">PERFIL PROFESIONAL</a>
+                    <a class="nav-link" href="#profesional">PERFIL PROFESIONAL</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">MIS HABILIDADES</a>
+                    <a class="nav-link" href="#proyectos">PROYECTOS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACTO</a>
+                    <a class="nav-link" href="#habilidades">MIS HABILIDADES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactos">CONTACTO</a>
                 </li>
                 </ul>
             </div>
@@ -70,8 +79,8 @@
                     <div class="col-lg-4 pienso">
                         <h2>Y SOY LO QUE <br> <b> PIENSO! </b></h2>
 
-                        <div class="redes1">
-                            <a href="https://wa.me/+573208748605"><img src="img/whatsapp.png" alt="whatsapp"></a>
+                        <div class="redes1" data-aos="zoom-in-up" data-aos-duration="1500">
+                            <a href="https://wa.link/csjs2a"><img src="img/whatsapp.png" alt="whatsapp"></a>
                             <a href="https://github.com/diego0-8"><img src="img/github.png" alt="gidhub"></a>
                             <a href="https://www.instagram.com/diego_0.8/"><img src="img/instagram.png" alt="instagram"></a>
                         </div>
@@ -81,27 +90,27 @@
     
                 </div>
     
-                <div class="abajo">
+                <div class="abajo" >
                     <img src="img/eabajo.png" alt="rectangulo">
                 </div>
     
-                <div class="cerrar">
+                <div class="cerrar"  data-aos="zoom-in-up" data-aos-duration="1500">
                     <img src="img/cerrar 1.png" alt="equis">
                 </div>
     
-                <div class="cerrar2">
+                <div class="cerrar2"  >
                     <img src="img/cerrar 2.png" alt="cruz">
                 </div>
     
-                <div class="puntos">
+                <div class="puntos"  >
                     <img src="img/Group 2.png" alt="tres puntos">
                 </div>
     
-                <div class="elipse1">
+                <div class="elipse1" >
                     <img src="img/Ellipse 3.png" alt="circuloN">
                 </div>
     
-                <div class="elipse2">
+                <div class="elipse2" >
                     <img src="img/Ellipse 4.png" alt="circuloN">
                 </div>
     
@@ -118,7 +127,7 @@
             <div class="circles"></div>
         </div>
 
-        <div class="container-fluid  linea">
+        <div class="container-fluid " id="linea">
             <div class="container ">
                 <div class="row">
                     <div class="col-lg-6">
@@ -151,7 +160,7 @@
             </div>
         </div>
 
-        <div class="container profesional">
+        <div class="container" id="profesional">
             <div class="row">
                 <div class="col-8">
                     <div class="parrafo">
@@ -169,7 +178,42 @@
             </div>
         </div>
 
-        <div class="container habilidades">
+
+        <div class="container" id="proyectos">
+
+            <h2> PROYECTOS <b>REALIZADOS</b> </h2>
+
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/foto1.png" class="d-block w-100" alt="...">
+                    <a href="https://diego0-8.github.io/gymbros2/"><button class="btn1">Ver pagina</button></a>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/foto2.png" class="d-block w-100" alt="...">
+                    <a href="https://diego0-8.github.io/pagina-web-peliculas-y-series/"><button class="btn1">Ver pagina</button></a>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/foto3.png" class="d-block w-100" alt="...">
+                    <a href="https://diego0-8.github.io/html1.1/"><button class="btn1">Ver pagina</button></a>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/foto4.png" class="d-block w-100" alt="...">
+                    <a href="https://diego0-8.github.io/team-member/"><button class="btn1">Ver pagina</button></a>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/foto5.png" class="d-block w-100" alt="...">
+                    <a href="https://diego0-8.github.io/team-member/"><button class="btn1 m">Ver pagina</button></a>
+                  </div>
+                  
+                </div>               
+              </div>
+
+
+            
+        </div>
+
+        <div class="container" id="habilidades">
             <div class="row">
                 <div class="version1">
                     <p>Amplia experiencia en el paquete Office, con especial énfasis en Excel para análisis de datos y creación de reportes. Habilidades sólidas en Word para redacción de documentos profesionales y PowerPoint para presentaciones impactantes. Me caracterizo por mi proactividad y capacidad de aprendizaje continuo, buscando constantemente nuevas herramientas para optimizar procesos.</p>
@@ -204,7 +248,7 @@
 
         </div>
 
-        <div class="container contactos">
+        <div class="container" id="contactos">
             <div class="row">
 
                 <div class="col-6">
@@ -230,10 +274,12 @@
 
                 <div class="col-6">
                     <div class="what">
-                        <a href="https://wa.me/+573208748605"><i class="bi bi-whatsapp"></i></a>
+                        <a href="https://wa.link/csjs2a"><i class="bi bi-whatsapp"></i></a>
                         <h2>WHATSAPP</h2>
                     </div>
                 </div>
+
+                
 
                 <div class="letra">
                     <h2> MIS REDES <b> SOCIALES </b></h2>
@@ -249,7 +295,16 @@
     <!-- java de bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-    <!-- iconos java -->
+    <!--  java -->
+
+    <script src="js/button.js"></script>
+
+    <!-- jsanimation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
     
 </body>
 </html>
