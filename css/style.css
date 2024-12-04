@@ -20,7 +20,14 @@ body{
 
 
 
-
+.nav-portafolio{
+    background: #2C272E;
+    position: fixed;
+    width: 100%;
+    z-index: 8;
+    padding: 20px 0;
+    top: 0;
+}
 .nav-portafolio ul a{
     color: white;
     margin-left: 35px;
@@ -40,19 +47,19 @@ body{
 
 
 .portafolio1{
-    margin-top: 10px;
+    margin-top: 102px;
     height: 574px;
     background-color: #2C272E;
     
 }
 
 .portafolio1 .equina img{
-    width: 240px;
-    height: 179px;
-    margin-left: 1089px;
-    z-index: 1;
+    width: 257px;
+    height: 180px;
+    margin-left: 1048px;
+    z-index: 9;
     position: relative;
-    top: -120px;
+    top: -150px;
     background: transparent;
     margin-bottom: -272px;
 }
@@ -228,6 +235,9 @@ body{
 }
 
 
+#profesional{
+    margin-top: 302px;
+}
 
 #profesional p{
     font-size: 35px;
@@ -576,19 +586,25 @@ body{
 }
 
 
-@media screen and (min-width:320px) and (max-width:990px){
-    .navbar-toggler{
-        position: relative;
-        left: 480px;
-        right: 10px;
-        height: 171px;
-        width: 124px;
-        font-size: 59px;
-        top: 43px;
-        z-index: 2;
-        margin-bottom: 150px;
-        border: transparent;
+@media screen and (min-width:768px) and (max-width:1024px){
+    
+
+    #navbarNav li{
+        background: #2C272E;
     }
+
+
+    .nav-portafolio {
+        background: transparent;
+        position: fixed;
+        width: 100%;
+        z-index: 8;
+        padding: 20px 0;
+        top: 0;
+    }
+    
+    
+    
     
     .portafolio1 .equina img{
         display: none !important;
@@ -639,13 +655,12 @@ body{
         display: none;
     }
 
-    /* .portafolio1 .circulo img{
-        display: none;
-    } */
 
     .portafolio1{
         display: flex;
         width: 100%;
+        margin-top: 392px;
+        margin-left: 167px;
     }
     .portafolio1 h2{
         text-align: center;
@@ -720,4 +735,484 @@ body{
         left: 206px;
         z-index: 2;
     }
+
+    #profesional{
+        margin-top: 350px;
+    }
+
+    #profesional p{
+        font-size: 35px;
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 73px;
+        position: relative;
+        left: 125px;
+    }
+
+    #profesional h2{
+        font-size: 53px;
+        text-align: center;
+        color: white;
+        bottom: 1174px;
+        left: 122px;
+        margin-right: 5px;
+        margin-left: 3px;
+        border-bottom: solid 2px #ffffff;
+        z-index: 2;
+    }
+
+    #profesional .diego img{
+        display: none;
+    }
+
+    #habilidades{
+        margin-top: 20px;
+    }
+
+    #habilidades p{
+        color: white;
+        font-size: 38px;
+        text-align: left;
+        padding: 28px 50px 39px 35px;
+        margin-top: 168px;
+    }
+
+    #habilidades .imagenes1 .img1 img{
+        position: relative;
+        height: 105px;
+        width: 84px;
+        z-index: 2;
+        color: transparent;
+        bottom: 602px;
+        left: 102px;
+    
+    }
+    
+    #habilidades .imagenes1 .img1 img{
+        position: relative;
+        height: 105px;
+        width: 84px;
+        z-index: 2;
+        color: transparent;
+        bottom: 27px;
+        left: 16px;
+    
+    }
+    
+    
+    #habilidades .imagenes1 .img1 h3{
+        position: relative;
+        height: 105px;
+        width: 84px;
+        z-index: 2;
+        color: white;
+        bottom: 19px;
+        left: 20px;
+    }
+    
+    #habilidades .img2 h3{
+        position: relative;
+        height: 105px;
+        width: 84px;
+        z-index: 2;
+        color: white;
+        bottom: 217px;
+        left: 415px;
+    }
+    
+    #habilidades .imagenes1 .img2 img{
+        position: relative;
+        height: 85px;
+        width: 85px;
+        z-index: 2;
+        color: transparent;
+        bottom: 223px;
+        left: 455px;
+    }
+    
+    #habilidades .imagenes1 .img3 img{
+        position: relative;
+        height: 80px;
+        width: 80px;
+        z-index: 2;
+        color: transparent;
+        bottom: 427px;
+        left: 295px;
+    }
+    
+    #habilidades .imagenes1 .img3 h3{
+        position: relative;
+        height: 105px;
+        width: 84px;
+        z-index: 2;
+        color: white;
+        bottom: 411px;
+        left: 295px;
+    }
+    
+    #habilidades .imagenes1 .img4 img{
+        position: relative;
+        height: 105px;
+        width: 84px;
+        z-index: 2;
+        color: transparent;
+        bottom: 643px;
+        left: 135px;
+    }
+    
+    #habilidades .imagenes1 .img4 h3{
+        position: relative;
+        height: 105px;
+        width: 84px;
+        z-index: 2;
+        color: white;
+        bottom: 628px;
+        left: 116px;
+    }
+    
+    #habilidades .version1 h2{
+        font-size: 60px;
+        text-align: right;
+        color: white;
+        position: relative;
+        bottom: 983px;
+        left: -343px;
+        margin-right: 198px;
+        margin-left: 461px;
+        border-bottom: solid 2px #ffffff;
+    }
+
+}
+
+
+
+@media screen and (min-width:430px) and (max-width:932px){
+
+    body{
+        width: 100%;
+    }
+
+    #navbarNav li{
+        background: #2C272E;
+    }
+
+
+    .nav-portafolio {
+        background: transparent;
+        position: fixed;
+        width: 100%;
+        z-index: 8;
+        padding: 20px 0;
+        top: 0;
+    }
+    
+    
+    
+    
+    .portafolio1 .equina img{
+        display: none !important;
+    }
+
+    .portafolio1 .circulo img{
+        margin-bottom: 10px;
+        position: relative;
+        bottom: 528px;
+        left: 66px;
+    }
+
+    .portafolio1 .imagen2 img{
+        margin-bottom: 10px;
+        position: relative;
+        bottom: 640px;
+        left: 66px;
+    }   
+    
+    .portafolio1 .pienso h2{
+        position: relative;
+        font-size: 64px;
+        bottom: 927px;
+        right: 83px;
+    }
+
+    .portafolio1 .abajo img{
+        display: none;
+    }
+
+    .portafolio1 .cerrar img{
+        display: none;
+    }
+
+    .portafolio1 .cerrar2 img{
+        display: none;
+    }
+
+    .portafolio1 .puntos img{
+        display: none;
+    }
+
+    .portafolio1 .elipse1 img{
+        display: none;
+    }
+
+    .portafolio1 .elipse2 img{
+        display: none;
+    }
+
+
+    .portafolio1{
+        display: flex;
+        width: 100%;
+        margin-top: 392px;
+        margin-left: 167px;
+    }
+    .portafolio1 h2{
+        text-align: center;
+        right: 75px;
+        margin: 3px;
+        font-size: 64px;
+        margin-bottom: 306px;
+        position: relative;
+        bottom: 277px;
+    }
+
+    .portafolio1 .pienso .redes1 img{
+        top: -1199px;
+        position: relative;
+        left: 149px;
+    }
+
+    #linea{
+        display: flex;
+        width: 100vw;
+        padding: 0;
+        margin-left: 191px;
+    }
+
+    #linea .acerca h2{
+        margin-top: 400px;
+        color: white;
+        font-size: 92px;
+        margin-bottom: -160px;
+        text-align: center;
+        left: 35px;
+        position: relative;
+        width: 100% !important;        
+    }
+
+    #linea .cont p{
+        margin-top: 186px;
+        color: white;
+        text-align: center;
+        padding: 16px 17px;
+        font-size: 25px;
+        margin-bottom: 253px;
+        position: relative;
+        left: 48px;
+    }
+
+    #linea .circuloA img{
+        width: 60px;
+        height: 60px;
+        background: transparent;
+        position: relative;
+        margin-top: 18px;
+        bottom: 233px;
+        left: 23px;
+        z-index: 2
+    }
+    
+    #linea .circuloB img{
+        width: 45px;
+        height: 45px;
+        background: transparent;
+        position: relative;
+        margin-top: 18px;
+        bottom: 312px;
+        left: 303px;
+        z-index: 2
+    }
+    
+    #linea .trespuntosB img{
+        width: 52px;
+        height: 10px;
+        background: transparent;
+        position: relative;
+        margin-top: 18px;
+        bottom: 384px;
+        left: 206px;
+        z-index: 2;
+    }
+
+
+    #proyectos{
+        width: 100%;
+        position: relative;
+    }
+
+    #proyectos h2 {
+        font-size: 60px;
+        text-align: center;
+        color: #ffffff;
+        bottom: 0px;
+        position: absolute;
+        top: -169px;
+        left: 185px;
+    }
+
+    #proyectos .carousel{
+        width: 100%;
+        padding: 0;
+        left: 159px;
+        height: 25px;
+        margin-bottom: 513px;
+        margin-top: 259px;
+    
+    }
+
+    #profesional{
+        margin-top: 350px;
+    }
+
+    #profesional p{
+        font-size: 35px;
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 73px;
+        position: relative;
+        left: 125px;
+    }
+
+    #profesional h2{
+        font-size: 53px;
+        text-align: center;
+        color: white;
+        bottom: 1174px;
+        left: 122px;
+        margin-right: 5px;
+        margin-left: 3px;
+        border-bottom: solid 2px #ffffff;
+        z-index: 2;
+    }
+
+    #profesional .diego img{
+        display: none;
+    }
+
+    #habilidades{
+        margin-top: 20px;
+    }
+
+    #habilidades p{
+        color: white;
+        font-size: 38px;
+        text-align: left;
+        padding: 28px 50px 39px 35px;
+        margin-top: 168px;
+    }
+
+    #habilidades .imagenes1 .img1 img{
+        position: relative;
+        height: 105px;
+        width: 84px;
+        z-index: 2;
+        color: transparent;
+        bottom: 602px;
+        left: 102px;
+    
+    }
+    
+    #habilidades .imagenes1 .img1 img{
+        position: relative;
+        height: 105px;
+        width: 84px;
+        z-index: 2;
+        color: transparent;
+        bottom: 27px;
+        left: 16px;
+    
+    }
+    
+    
+    #habilidades .imagenes1 .img1 h3{
+        position: relative;
+        height: 105px;
+        width: 84px;
+        z-index: 2;
+        color: white;
+        bottom: 19px;
+        left: 20px;
+    }
+    
+    #habilidades .img2 h3{
+        position: relative;
+        height: 105px;
+        width: 84px;
+        z-index: 2;
+        color: white;
+        bottom: 217px;
+        left: 415px;
+    }
+    
+    #habilidades .imagenes1 .img2 img{
+        position: relative;
+        height: 85px;
+        width: 85px;
+        z-index: 2;
+        color: transparent;
+        bottom: 223px;
+        left: 455px;
+    }
+    
+    #habilidades .imagenes1 .img3 img{
+        position: relative;
+        height: 80px;
+        width: 80px;
+        z-index: 2;
+        color: transparent;
+        bottom: 427px;
+        left: 295px;
+    }
+    
+    #habilidades .imagenes1 .img3 h3{
+        position: relative;
+        height: 105px;
+        width: 84px;
+        z-index: 2;
+        color: white;
+        bottom: 411px;
+        left: 295px;
+    }
+    
+    #habilidades .imagenes1 .img4 img{
+        position: relative;
+        height: 105px;
+        width: 84px;
+        z-index: 2;
+        color: transparent;
+        bottom: 643px;
+        left: 135px;
+    }
+    
+    #habilidades .imagenes1 .img4 h3{
+        position: relative;
+        height: 105px;
+        width: 84px;
+        z-index: 2;
+        color: white;
+        bottom: 628px;
+        left: 116px;
+    }
+    
+    #habilidades .version1 h2{
+        font-size: 60px;
+        text-align: right;
+        color: white;
+        position: relative;
+        bottom: 983px;
+        left: -343px;
+        margin-right: 198px;
+        margin-left: 461px;
+        border-bottom: solid 2px #ffffff;
+    }
+
 }
